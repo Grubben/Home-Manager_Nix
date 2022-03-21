@@ -30,7 +30,7 @@
 		pkgs.cmus
 		pkgs.conan
 		pkgs.croc
-		pkgs.domination
+		#pkgs.domination
 		pkgs.ffmpeg
 		pkgs.fossil
 		pkgs.freeciv
@@ -51,7 +51,7 @@
 		pkgs.monolith
 		pkgs.nasm
 		pkgs.nnn
-		pkgs.notcurses
+		#pkgs.notcurses
 		#pkgs.nyxt
 		pkgs.pandoc
 		pkgs.portmidi

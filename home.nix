@@ -19,10 +19,12 @@
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 
+  #home.packages = with pkgs; [
   home.packages = [
 		pkgs.agedu
 		pkgs.amfora
 		pkgs.aria
+		pkgs.asciinema
 		pkgs.bash-completion
 		pkgs.bat
 		pkgs.broot
@@ -31,6 +33,7 @@
 		pkgs.conan
 		pkgs.croc
 		#pkgs.domination
+		#pkgs.emacs
 		pkgs.ffmpeg
 		pkgs.fossil
 		pkgs.freeciv
@@ -89,5 +92,6 @@
 
 		#CHURCH
 		#pkgs.openlp
+		#pkgs.xiphos
   ];
 }
